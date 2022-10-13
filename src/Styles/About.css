@@ -1,0 +1,24 @@
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .about .aboutTop {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to right bottom, #f6f7dd, #f1f0d4, #ece8ca, #e7e1c1, #e3d9b8, #e3d9b8, #e3d9b8, #e3d9b8, #e7e1c1, #ece8ca, #f1f0d4, #f6f7dd);
+  }
+  .about .aboutTop p {
+    padding: 20px;
+  }
+
+  
+  
