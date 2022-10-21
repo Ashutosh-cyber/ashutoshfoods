@@ -6,7 +6,15 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "@mui/material";
 import "../Styles/Footer.css";
 
+const socialMap = {
+  "twitter": "https://twitter.com/",
+}
+
 function Footer() {
+
+  const openSocialLink = (type) => {
+    window.open(socialMap[type], "_blank");
+  }
   return (
     <div className="footer">
       <div className="leftSide">
@@ -30,7 +38,7 @@ function Footer() {
           <Link href="#https://www.instagram.com/">
             <InstagramIcon />
           </Link>
-          <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+          <TwitterIcon onClick={() => openSocialLink('twitter')}/> <FacebookIcon /> <LinkedInIcon />
         </div>
         <p> &copy; 2022 ashutoshfoods.com</p>
       </div>
