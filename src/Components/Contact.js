@@ -12,13 +12,17 @@ function Contact() {
   const [loader, setLoader] = useState(false);
   const collectionRef = collection(db, "contact");
 
-  const handleFn = async () => {
+  const handleFn = async (e) => {
+    e.preventDefault();
     await addDoc(collectionRef, { name: name, phone: phone, message: message });
+    setName("");
+    setPhone("");
+    setMessage("");
   };
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     setLoader(true);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoader(true);
 
   //     db.collection("contacts")
   //       .add({
@@ -67,7 +71,7 @@ function Contact() {
           <label htmlFor="message">Message</label>
           <textarea
             rows="6"
-            placeholder="Enter your query..."
+            placeholder="Enter your message..."
             name="message"
             required
             onChange={(e) => setMessage(e.target.value)}

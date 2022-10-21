@@ -10,15 +10,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="leftSide">
-        Contact Information
+        <p>Contact Information</p>
+
         <div>
           <p>
             Mohan Parab: +91 8971758045 <br />
             Anurag M Parab: +91 7259120744
           </p>
-          <div>
-            <p>Email:support@ashutoshfoods.com</p>
-          </div>
+
+          <p>Email:support@ashutoshfoods.com</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ function Footer() {
           <Link href="#https://www.instagram.com/">
             <InstagramIcon />
           </Link>
-          <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+          <TwitterIcon /> <FacebookIcon />
         </div>
         <p> &copy; 2022 ashutoshfoods.com</p>
       </div>

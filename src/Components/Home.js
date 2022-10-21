@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Carousel from "react-bootstrap/Carousel";
 import BannerImage from "../assets/background.jpg";
 import "../Styles/Home.css";
 

@@ -3,6 +3,28 @@
     height: 100%;
     display: flex;
     
+    
+  }
+
+  .about .aboutTop .companyInfo table {
+    text-align: center;
+  }
+
+  .about .companyInfo table,tr,td {
+    border: 1px solid ;
+    padding: 10px;
+    background-image: radial-gradient(circle, #f2f5c7, #eff1ca, #ededcd, #e9e9d0, #e6e5d3);
+    
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+
+  td {
+    text-align: left;
   }
   
   .about .aboutTop {
@@ -11,6 +33,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 20px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-align: center;
     margin: auto;

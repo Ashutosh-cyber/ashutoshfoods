@@ -4,66 +4,6 @@ export const SpicesList = [
   {
     name: "Clove",
     image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
-  },
-
-  {
-    name: "Clove",
-    image: Clove,
-    price: "clove",
+    price: "Indonesian Lal Pari",
   },
 ];
