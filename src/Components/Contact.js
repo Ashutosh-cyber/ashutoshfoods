@@ -12,33 +12,23 @@ function Contact() {
   const [loader, setLoader] = useState(false);
   const collectionRef = collection(db, "contact");
 
-  const handleFn = async () => {
+  // const handleFn = async () => {
+  //   await addDoc(collectionRef, { name: name, phone: phone, message: message });
+  // };
+
+    const handleFn = async (e) => {
+      e.preventDefault();
+      setLoader(true);
+
+
     await addDoc(collectionRef, { name: name, phone: phone, message: message });
-  };
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     setLoader(true);
+      setName("");
+      setPhone("");
+      setMessage("");
 
-  //     db.collection("contacts")
-  //       .add({
-  //         name: name,
-  //         phone: phone,
-  //         message: message,
-  //       })
-  //       .then(() => {
-  //         setLoader(false);
-  //         alert("Your message has been submitted👍");
-  //       })
-  //       .catch((error) => {
-  //         alert(error.message);
-  //         setLoader(false);
-  //       });
-
-  //     setName("");
-  //     setPhone("");
-  //     setMessage("");
-  //   };
+      alert("form submitted successfully")
+    };
 
   return (
     <div className="contact">
