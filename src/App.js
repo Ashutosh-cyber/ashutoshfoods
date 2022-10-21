@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
@@ -9,6 +10,7 @@ import Spices from "./Products/Spices";
 import Grains from "./Products/Grains";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+
 
 function App() {
   return (
