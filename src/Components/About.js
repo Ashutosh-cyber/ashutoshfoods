@@ -30,7 +30,7 @@ function About() {
               </tr>
               <tr>
                 <td>OWNER</td>
-                <td>Mohan Santu Parab</td>
+                <td>Mohan S Parab</td>
               </tr>
               <tr>
                 <td>ADDRESS</td>
